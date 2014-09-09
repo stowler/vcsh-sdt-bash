@@ -1,0 +1,17 @@
+#
+# ~/.extra: 
+# As a way of adding custom commands and configs without forking mathiasbynens,
+# I've added some of my own customizations to .extra, which is the last file
+# sourced by .bash_profile
+
+alias tmux="tmux -2"
+
+# on macs with AFNI:
+export DYLD_FALLBACK_LIBRARY_PATH="/usr/local/abin";
+
+export bwDir=${HOME}/gitRepos/brainwhere
+export PATH=${bwDir}:${PATH}
+
+# ~/.extra_local is where I put customations that are host-specific (including PATH entries).
+# source .extra_local if it exists:
+[ -r "${HOME}/.extra_local" ] && [ -f "${HOME}/.extra_local" ] && source "${HOME}/.extra_local"

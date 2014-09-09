@@ -24,5 +24,3 @@ export GREP_OPTIONS="--color=auto";
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
 
-# on macs with AFNI:
-export DYLD_FALLBACK_LIBRARY_PATH="/usr/local/abin";

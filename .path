@@ -1,0 +1,11 @@
+# from https://github.com/mathiasbynens/dotfiles/blob/master/README.md :
+# 
+#    If ~/.path exists, it will be sourced along with the other files, before any
+#    feature testing (such as detecting which version of ls is being used) takes
+#    place.
+#
+# ...so .path is fine place to add paths that don't contain variables, and
+# don't differ among hosts.
+#
+# I use ~/.extra for adding paths that contain varibles but don't differ among hosts.
+# I use ~/.extra_local for adding paths that may differ among hosts.
