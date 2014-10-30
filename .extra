@@ -15,3 +15,12 @@ export PATH=${bwDir}:${PATH}
 # ~/.extra_local is where I put customations that are host-specific (including PATH entries).
 # source .extra_local if it exists:
 [ -r "${HOME}/.extra_local" ] && [ -f "${HOME}/.extra_local" ] && source "${HOME}/.extra_local"
+#
+# ...examples entries for .extra_local include:
+
+# MCR:
+# export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH}:/Applications/MATLAB/MATLAB_Compiler_Runtime2014/v717/runtime/maci64:/Applications/MATLAB/MATLAB_Compiler_Runtime2014/v717/sys/os/maci64:/Applications/MATLAB/MATLAB_Compiler_Runtime2014/v717/bin/maci64:/System/Library/Frameworks/JavaVM.framework/JavaVM:/System/Library/Frameworks/JavaVM.framework/Libraries
+# export XAPPLRESDIR=/Applications/MATLAB/MATLAB_Compiler_Runtime2014/v717/X11/app-defaults
+#
+# MacPorts Installer addition on 2013-05-22_at_20:50:27: adding an appropriate PATH variable for use with MacPorts.
+#export PATH=/opt/local/bin:/opt/local/sbin:$PATH
