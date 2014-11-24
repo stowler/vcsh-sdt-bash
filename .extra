@@ -9,7 +9,7 @@ alias tmux="tmux -2"
 # on macs with AFNI:
 export DYLD_FALLBACK_LIBRARY_PATH="/usr/local/abin";
 
-export bwDir=${HOME}/gitRepos/brainwhere
+export bwDir=${HOME}/src.mywork.gitRepos/brainwhere
 export PATH=${bwDir}:${PATH}
 
 # ~/.extra_local is where I put customations that are host-specific (including PATH entries).
