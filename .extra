@@ -18,6 +18,9 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 git config --global color.ui auto
+
+git config --global push.default simple
+
 # on os x only, via .extra_local instead of here in .extra:
 #     git config --global credential.helper osxkeychain
 
