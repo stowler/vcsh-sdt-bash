@@ -6,6 +6,13 @@
 
 alias tmux="tmux -2"
 
+# exclude .. from grep -r someDotfileString ~/.*
+export GLOBIGNORE=.:..
+
+# add date/time stamp to bash history:
+# (man bash, and man 3 strftime)
+export HISTTIMEFORMAT="[%Y%m%d-%T] "
+
 #################################
 # global git configs: 
 #################################
